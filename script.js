@@ -46,7 +46,7 @@ btn.addEventListener("click", ()=>{
             city.innerHTML = `<strong>city:</strong> ${data.city}`;
             reg.innerHTML = `<strong>Region:</strong> ${data.region}`;
             org.innerHTML = `<strong>Organisation:</strong> ${data.org}`;
-            host.innerHTML = `<strong>Hostname:</strong> ${data.hostname}`;
+            host.innerHTML = `<strong>Hostname:</strong> ${data.org}`;
             
 
             map.innerHTML = `<iframe src="https://maps.google.com/maps?q= ${latitude}, ${longitude}&output=embed" width="1000" height="370" frameborder="0" style="border:0"></iframe>
