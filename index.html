@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Location</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1>MY Public IP ADDRESS :</h1>
+        <button id="btn">Get Data</button>
+    </div>
+    
+    <div id="second-main">
+        <span id="head"> <strong>MY Public IP ADDRESS :</strong></span>
+        <input id="ip" type="text">
+
+        <div id="info-con">
+           <div class="con">
+            <h2 id="lat"></h2>
+            <h2 id="long"></h2>
+           </div>
+           <div class="con">
+            <h2 id="city"></h2>
+            <h2 id="reg"></h2>
+           </div>
+           <div class="con">
+            <h2 id="org"></h2>
+            <h2 id="host"></h2>
+           </div>   
+        </div>
+
+        <div id="map"></div>
+
+        <h2 class="map-down" id="time-zone"></h2>
+        <h2 class="map-down" id="date-time"></h2>
+        <h2 class="map-down" id="pin"></h2>
+        <h2 class="map-down" id="msg"></h2>
+
+        <div class="search-div">
+            <span class="material-icons icon">
+                search
+                </span>
+            <input id ="search" type="search" placeholder="Filter">
+        </div>
+        
+        <div id="postSection"></div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+</body>
+</html>
