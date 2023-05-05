@@ -56,7 +56,7 @@ body{
 
 #info-con{
     padding-top: 15px;
-    width: 80%;
+    
     display: flex;
     justify-content: space-between;
     gap: 1rem;
@@ -96,7 +96,7 @@ body{
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
-    width: 500px;
+    width: 300px;
 }
 
 .post h3{
